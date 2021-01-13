@@ -10254,3 +10254,11 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+.round {
+  width: 70px;
+  height: 70px;
+}
+.image {
+  width: 45px;
+  height: 45px;
+}
