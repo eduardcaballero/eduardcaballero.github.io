@@ -65,4 +65,8 @@
       });
     });
   
-  })(jQuery); // End of use strict  
+  })(jQuery); // End of use strict
+  window.onload = function (){
+    $('#preloader').fadeOut();
+    $('body').removeClass('hidden')
+  }

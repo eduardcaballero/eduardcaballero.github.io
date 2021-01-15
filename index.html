@@ -16,7 +16,14 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+    <body id="page-top" class="hidden" >
+        <div id="preloader" class="loader">
+            <div class="loading">
+         <p>Loading</p>
+               <span></span>
+            </div>
+         </div>
+        <div >
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
@@ -92,15 +99,15 @@
                             <img class="img-fluid" src="assets/img/portfolio/otree.png" alt="" />
                         </div>
                     </div>
-                    <!-- <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/colcief.png" alt="" />
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <!-- <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -180,7 +187,7 @@
                 <!-- About Section Content-->
                 <div class="row">
                     <!-- Soy desarrollador full stack, cuento con titulo de ingeniero de sistemas de la Universidad Industrial de Santander. -->
-                    <div class="col-lg-4 ml-auto"><p class="lead">I am a full stack developer, I have a degree in systems engineer from the Industrial University of Santander.</p></div>
+                    <div class="col-lg-4 ml-auto"><p class="lead">I am a full stack developer, I have a degree in systems engineer from the Universidad Industrial de Santander.</p></div>
                     <!-- Tengo experiencia en el liderazgo y desarrollo de plataformas web, inteligencia artificial y aprendizaje de maquina. -->
                     <div class="col-lg-4 mr-auto"><p class="lead">I have experience in the leadership and development of web platforms, artificial intelligence and machine learning.</p></div>
                 </div>
@@ -406,17 +413,36 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-10">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">school administration platform | Laravel (PHP)</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-chalkboard-teacher"></i></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="" />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/colcief2.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-5">Platform for the management and administration of the Colegio Integrado Ezequiel Florián educational establishment, developed in PHP using Laravel and MySQL.</p>
+                                    <!-- <p class="mb-5">Plataforma para la gestion y administracion del plantel educativo Colegio Integrado Ezequiel Florián, desarrollado en PHP usando Laravel y MySQL.</p> -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">
+                                            <h4 class="text-center">Functions</h4>
+                                        </li>
+                                        <li class="list-group-item">Grade management</li>
+                                        <li class="list-group-item">Staff Administration</li>
+                                        <li class="list-group-item">Schedule organization</li>
+                                        <li class="list-group-item">Report generator</li>
+                                        <li class="list-group-item">Others</li>
+                                      </ul><br/><br/>
+                                    <ul class="list-group">
+                                        <li class="list-group-item active">
+                                            <h4 class="text-center">Media</h4>
+                                        </li>
+                                        <li class="list-group-item" >
+                                            <img width="100%" src="assets/img/portfolio/colcief800px-min.gif" alt="gif" />
+                                        </li>
+                                    </ul><br/>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -496,6 +522,8 @@
                 </div>
             </div>
         </div>
+    </div>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
