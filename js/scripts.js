@@ -66,7 +66,19 @@
     });
   
   })(jQuery); // End of use strict
-  // window.onload = function (){
-  //   $('#preloader').fadeOut();
-  //   $('body').removeClass('hidden')
-  // }
+  window.onload = function (){
+    $('#preloader').fadeOut();
+    $('body').removeClass('hidden')
+  }
+  function insert1(){
+    $('.gif1').html('<img width="100%" src="assets/img/portfolio/visualizer800px-min.gif" alt="gif" />')
+  }
+  function insert2(){
+    $('.gif2').html('<img width="100%" src="assets/img/portfolio/navar800px-min.gif" alt="gif" />')
+  }
+  function insert3(){
+    $('.gif3').html('<img width="100%" src="assets/img/portfolio/otree800px-min.gif" alt="gif" />')
+  }
+  function insert4(){
+    $('.gif4').html('<img width="100%" src="assets/img/portfolio/colcief800px-min.gif" alt="gif" />')
+  }
