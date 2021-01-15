@@ -66,7 +66,7 @@
     });
   
   })(jQuery); // End of use strict
-  window.onload = function (){
-    $('#preloader').fadeOut();
-    $('body').removeClass('hidden')
-  }
+  // window.onload = function (){
+  //   $('#preloader').fadeOut();
+  //   $('body').removeClass('hidden')
+  // }
