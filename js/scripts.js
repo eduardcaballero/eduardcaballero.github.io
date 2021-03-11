@@ -82,3 +82,6 @@
   function insert4(){
     $('.gif4').html('<img width="100%" src="assets/img/portfolio/colcief800px-min.gif" alt="gif" />')
   }
+  function insert5(){
+    $('.gif4').html('<img width="100%" src="assets/img/portfolio/colcief800px-min.gif" alt="gif" />')
+  }
